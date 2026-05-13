@@ -29,10 +29,76 @@ Option C — GitHub Pages
 Après mise en ligne
 -------------------
 • Tester le formulaire depuis le site en HTTPS (pas en file://).
-• Brancher un nom de domaine perso : dans Netlify / Cloudflare / GitHub,
-  onglet domaines — souvent gratuit côté hébergeur, le nom de domaine
-  reste à acheter séparément si besoin.
 
 Fichiers nécessaires sur le serveur
 ------------------------------------
 index.html, merci.html, css/styles.css, js/main.js, assets/ (images).
+
+
+Nom de domaine : achat et branchement
+=====================================
+
+1) Acheter le domaine
+----------------------
+Le domaine s’achète chez un **bureau d’enregistrement** (registrar), pour
+environ 8–15 € / an pour un .fr (prix indicatif, variable selon l’offre).
+
+Exemples courants en France / Europe :
+• OVH, Gandi, IONOS, Amen, etc.
+• Cloudflare Registrar (prix « au coût », DNS inclus) si vous utilisez
+  déjà Cloudflare pour le site ou le DNS.
+
+Vous choisissez le nom (ex. lelienparental.fr), vérifiez qu’il est libre,
+payez la première année. Vous gardez ensuite la **gestion DNS** chez ce
+registrar (ou vous pointez les serveurs DNS vers Netlify / Cloudflare
+si l’hébergeur le demande).
+
+2) Relier le domaine à votre hébergement
+-----------------------------------------
+L’hébergement gratuit (Netlify, Cloudflare Pages, GitHub Pages) fournit
+souvent un **certificat HTTPS gratuit** une fois le domaine correctement
+branché. Pas de changement obligatoire dans les fichiers de ce projet :
+le formulaire adapte déjà l’URL de redirection à votre site.
+
+--- Si le site est sur NETLIFY ---
+a) Netlify : votre site → Domain management → Add a domain → entrer
+   votre-domaine.fr (et éventuellement www.votre-domaine.fr).
+b) Netlify affiche les **enregistrements DNS** à créer (souvent un
+   CNAME pour « www » vers xxx.netlify.app, et pour le domaine « nu »
+   .fr des enregistrements A ou ALIAS selon leur doc à l’écran).
+c) Chez votre registrar : zone DNS → ajouter exactement ces
+   enregistrements (noms / valeurs fournis par Netlify).
+d) Attendre la propagation (souvent 15 min à quelques heures, parfois
+   jusqu’à 48 h). Netlify indique quand le certificat SSL est actif.
+
+--- Si le site est sur CLOUDFLARE PAGES ---
+Dans le projet Pages : Custom domains → suivre l’assistant ; chez le
+registrar, ajouter les enregistrements CNAME demandés (souvent vers
+votre-projet.pages.dev).
+
+--- Si le site est sur GITHUB PAGES ---
+GitHub : Settings → Pages → Custom domain ; puis chez le registrar,
+enregistrements A vers les IP GitHub Pages (la liste à jour est dans la
+doc GitHub « Configuring a custom domain ») et/ou CNAME pour www.
+
+3) www ou sans www
+------------------
+Choisissez une version « canonique » (ex. tout en https://votre-domaine.fr).
+Dans Netlify, vous pouvez faire rediriger l’autre vers celle-ci (option
+« redirect » / primary domain). Évitez d’avoir les deux sans redirection,
+pour le référencement et la clarté.
+
+4) E-mail sur le même domaine
+-----------------------------
+L’hébergement gratuit du site ne gère pas la boîte mail @votre-domaine.fr.
+Pour contact@… : soit une offre mail du registrar (souvent payante),
+soit Zoho / Google Workspace / Proton, etc., avec enregistrements MX
+fournis par le service mail. Ne supprimez pas les MX existants sans
+savoir ce que vous faites si vous avez déjà un mail sur ce domaine.
+
+5) Après coup
+-------------
+• Vérifier le site en https://votre-domaine.fr et le formulaire.
+• Mettre à jour les liens absolus ailleurs si besoin (réseaux sociaux,
+  cartes de visite) — le code du site n’impose pas d’URL fixe pour le
+  domaine principal.
