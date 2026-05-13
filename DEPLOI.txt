@@ -1,0 +1,38 @@
+Déploiement gratuit du site (fichiers statiques)
+===============================================
+
+Option A — Netlify (le plus simple sans Git)
+--------------------------------------------
+1. Compte gratuit sur https://www.netlify.com
+2. Glisser-déposer le dossier du projet (ou un zip contenant index.html,
+   merci.html, css/, js/, assets/) dans « Sites » → « Deploy manually »
+   (parfois intitulé « Add new site » → dépôt ou dossier local).
+3. Netlify affiche une URL du type https://nom-aleatoire.netlify.app
+4. Le formulaire Web3Forms : la redirection vers merci.html s’adapte
+   automatiquement à cette URL (script dans index.html).
+
+Option B — Cloudflare Pages
+---------------------------
+1. https://pages.cloudflare.com — compte gratuit.
+2. « Create a project » → connecter GitHub/GitLab OU upload direct
+   selon l’interface proposée.
+3. Répertoire de build : racine du projet ; pas de commande de build
+   nécessaire pour du HTML statique.
+
+Option C — GitHub Pages
+------------------------
+1. Créer un dépôt GitHub, y pousser ce projet.
+2. Settings → Pages → Source : branche main, dossier / (root).
+3. URL du type https://votre-username.github.io/nom-du-depot/
+   (ajuster si site « utilisateur » : …github.io/ sans sous-chemin).
+
+Après mise en ligne
+-------------------
+• Tester le formulaire depuis le site en HTTPS (pas en file://).
+• Brancher un nom de domaine perso : dans Netlify / Cloudflare / GitHub,
+  onglet domaines — souvent gratuit côté hébergeur, le nom de domaine
+  reste à acheter séparément si besoin.
+
+Fichiers nécessaires sur le serveur
+------------------------------------
+index.html, merci.html, css/styles.css, js/main.js, assets/ (images).

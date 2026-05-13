@@ -1,0 +1,33 @@
+Images du site « Le Lien Parental »
+====================================
+
+Correspondance des fichiers (ne pas renommer autrement)
+-------------------------------------------------------
+  image1.jpg  →  photo principale (hero), ratio affiché 3:4
+  image2.jpg  →  bloc « Ma vision » (déco), ratio 3:4
+  image3.jpg  →  carte service 1 (soutien parentalité), ratio 4:3
+  image4.jpg  →  carte service 2 (ateliers), ratio 4:3
+  image5.jpg  →  carte service 3 (groupes), ratio 4:3
+  image6.jpg  →  carte service 4 (personnalisé), ratio 4:3
+  image7.jpg  →  carte événement 1, ratio 16:10
+  image8.jpg  →  carte événement 2, ratio 16:10
+  image9.jpg  →  carte événement 3, ratio 16:10
+
+Remplacer une photo
+-------------------
+• Gardez exactement le nom (ex. image4.jpg) pour ne pas modifier index.html.
+• La mise en page recadre au centre (object-fit: cover) ; ratios conseillés
+  ci-dessus pour un rendu optimal.
+
+Formats
+-------
+• Le plus simple : remplacer le fichier en restant en JPEG et en gardant le
+  nom imageN.jpg (N = 1 à 9).
+• Si vous utilisez du PNG ou du WebP : renommez en imageN.png ou imageN.webp
+  et modifiez la ligne correspondante dans index.html à la racine du site.
+
+Tailles indicatives (éviter le flou)
+-------------------------------------
+• image1 : largeur ≥ 1200 px
+• image2 à image6 : largeur ≥ 800 px
+• image7 à image9 : largeur ≥ 900 px

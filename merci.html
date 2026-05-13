@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Message envoyé — Le lien parental</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600&family=Nunito+Sans:ital,wght@0,400;0,600;0,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      .merci {
+        min-height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 3rem 1.25rem;
+      }
+      .merci h1 {
+        font-family: var(--font-serif);
+        font-size: clamp(2rem, 4vw, 2.75rem);
+        margin: 0 0 1rem;
+        color: var(--brown);
+      }
+      .merci p {
+        margin: 0 0 1.5rem;
+        color: var(--brown-soft);
+        max-width: 36ch;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="merci wrap">
+      <h1>Merci</h1>
+      <p>Votre message a bien été envoyé. Nous vous répondrons dès que possible.</p>
+      <a class="btn-pill btn-pill--solid" href="index.html">Retour au site</a>
+    </main>
+  </body>
+</html>
