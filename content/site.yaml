@@ -2,7 +2,7 @@ site_url: https://lelienparental.fr
 meta:
   page_title: Le Lien Parental — Accompagnement parental
   description: Accompagner les familles avec écoute, douceur et bienveillance.
-    Soutien à la parentalité, ateliers et séances sur mesure. Test de modif
+    Soutien à la parentalité, ateliers et séances sur mesure.
 og:
   image_path: assets/images/image7.jpg
   image_alt: Le lien parental — accompagnement parental
@@ -19,8 +19,8 @@ hero:
   kicker: Accompagnement parental
   title: Le lien parental
   lead: Accompagner les familles avec écoute, douceur et bienveillance.
-  image: assets/images/allee.jpeg
-  image_alt: Parent et enfant dans un moment de complicité
+  image: assets/images/image1.jpg
+  image_alt: "Parent et enfant dans un moment de complicité "
 vision:
   image: assets/images/image2.jpg
   kicker: Ma vision
