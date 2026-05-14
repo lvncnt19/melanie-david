@@ -1,0 +1,19 @@
+[build]
+  command = "npm ci && npm run build"
+  publish = "."
+
+# /admin sans slash final faisait parfois résoudre config.yml à la racine → 404 Decap
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

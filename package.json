@@ -1,0 +1,12 @@
+{
+  "name": "le-lien-parental-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8",
+    "js-yaml": "^4.1.0"
+  }
+}

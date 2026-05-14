@@ -1,0 +1,154 @@
+# Decap CMS — édition du contenu (textes + images)
+# Netlify : activer Identity + Git Gateway, inviter l’éditrice, puis /admin
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+local_backend: true
+
+collections:
+  - name: "site"
+    label: "Page d’accueil"
+    files:
+      - name: "home"
+        label: "Contenu (site.yaml)"
+        file: "content/site.yaml"
+        fields:
+          - name: "site_url"
+            label: "URL du site (HTTPS, sans slash final)"
+            widget: "string"
+            hint: "Ex. https://www.monsite.fr — canonical et Open Graph."
+
+          - label: "Méta (SEO)"
+            name: "meta"
+            widget: "object"
+            fields:
+              - { label: "Titre de la page", name: "page_title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Open Graph"
+            name: "og"
+            widget: "object"
+            fields:
+              - { label: "Image", name: "image_path", widget: "image", hint: "Image partagée sur les réseaux." }
+              - { label: "Texte alternatif", name: "image_alt", widget: "string" }
+
+          - label: "Données structurées (JSON-LD)"
+            name: "schema"
+            widget: "object"
+            fields:
+              - { label: "Nom", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "Lien Instagram", name: "instagram", widget: "string" }
+
+          - label: "Marque (en-tête)"
+            name: "brand"
+            widget: "object"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Sous-titre", name: "tag", widget: "string" }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Sur-titre", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Texte d’accroche", name: "lead", widget: "text" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Texte alternatif photo", name: "image_alt", widget: "string" }
+
+          - label: "Vision"
+            name: "vision"
+            widget: "object"
+            fields:
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Sur-titre", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Texte", name: "lead", widget: "text" }
+              - { label: "Lien du bouton", name: "button_href", widget: "string" }
+              - { label: "Texte du bouton", name: "button_text", widget: "string" }
+
+          - label: "Services"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Sur-titre", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Introduction", name: "intro", widget: "text" }
+              - label: "Cartes"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Texte alternatif", name: "image_alt", widget: "string" }
+                  - { label: "Titre", name: "title", widget: "string" }
+                  - { label: "Texte", name: "text", widget: "text" }
+                  - { label: "Lien", name: "link_href", widget: "string" }
+                  - { label: "Texte du lien", name: "link_text", widget: "string" }
+
+          - label: "Tarifs"
+            name: "tarifs"
+            widget: "object"
+            fields:
+              - { label: "Sur-titre", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Introduction", name: "lead", widget: "text" }
+              - label: "Prix"
+                name: "prices"
+                widget: "list"
+                fields:
+                  - { label: "Libellé", name: "label", widget: "string" }
+                  - { label: "Montant (HTML ok, ex. 60&nbsp;€)", name: "amount", widget: "string" }
+                  - { label: "Détail", name: "detail", widget: "string" }
+              - { label: "Note", name: "note", widget: "text" }
+
+          - label: "Événements"
+            name: "events"
+            widget: "object"
+            fields:
+              - { label: "Sur-titre", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Introduction", name: "lead", widget: "text" }
+              - { label: "Lien du bouton", name: "button_href", widget: "string" }
+              - { label: "Texte du bouton", name: "button_text", widget: "string" }
+              - label: "Cartes"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Date / heure", name: "meta", widget: "string", hint: "HTML ok (ex. &nbsp; pour espaces insécables)." }
+                  - { label: "Titre", name: "title", widget: "string" }
+                  - { label: "Texte", name: "text", widget: "text" }
+                  - { label: "Lien", name: "link_href", widget: "string" }
+                  - { label: "Texte du lien", name: "link_text", widget: "string" }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Sur-titre", name: "kicker", widget: "string" }
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "URL Instagram", name: "instagram_url", widget: "string" }
+              - { label: "Libellé Instagram (affiché)", name: "instagram_label", widget: "string" }
+              - { label: "Lieu / visio", name: "location", widget: "string" }
+
+          - label: "Formulaire (champs cachés)"
+            name: "form"
+            widget: "object"
+            fields:
+              - { label: "Objet e-mail", name: "subject", widget: "string" }
+              - { label: "Nom expéditeur", name: "from_name", widget: "string" }
+
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Réponse", name: "answer", widget: "text" }
