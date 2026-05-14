@@ -117,6 +117,7 @@ contact:
 form:
   subject: Message depuis le site — Le lien parental
   from_name: Site Le lien parental
+  label_phone: Téléphone
 faq:
   - question: Comment se déroule une première séance ?
     answer: Un temps d’accueil pour faire connaissance, préciser vos attentes et
