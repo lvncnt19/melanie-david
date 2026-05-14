@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Le lien parental">
+  <rect width="512" height="512" rx="112" fill="#fff9f4"/>
+  <circle cx="200" cy="300" r="52" fill="#c4705c" opacity="0.95"/>
+  <circle cx="340" cy="220" r="64" fill="#a85a48"/>
+  <path
+    d="M248 278 Q292 248 318 228"
+    fill="none"
+    stroke="#6e5348"
+    stroke-width="28"
+    stroke-linecap="round"
+  />
+</svg>

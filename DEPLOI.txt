@@ -32,7 +32,8 @@ Après mise en ligne
 
 Fichiers nécessaires sur le serveur
 ------------------------------------
-index.html, merci.html, css/styles.css, js/main.js, assets/ (images).
+index.html, merci.html, mentions-legales.html, confidentialite.html, cgv.html,
+css/styles.css, js/main.js, assets/ (images, favicon.svg), robots.txt, sitemap.xml.
 
 
 Nom de domaine : achat et branchement
