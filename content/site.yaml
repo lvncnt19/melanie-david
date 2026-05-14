@@ -1,133 +1,138 @@
-# Contenu éditable (Decap CMS). Après modification : déploiement Netlify lance « npm run build ».
-# En local : npm install && npm run build
-
-site_url: "https://lelienparental.fr"
-
+site_url: https://lelienparental.fr
 meta:
-  page_title: "Le Lien Parental — Accompagnement parental"
-  description: "Accompagner les familles avec écoute, douceur et bienveillance. Soutien à la parentalité, ateliers et séances sur mesure."
-
+  page_title: Le Lien Parental — Accompagnement parental
+  description: Accompagner les familles avec écoute, douceur et bienveillance.
+    Soutien à la parentalité, ateliers et séances sur mesure. Test de modif
 og:
-  image_path: "assets/images/image7.jpg"
-  image_alt: "Le lien parental — accompagnement parental"
-
+  image_path: assets/images/image7.jpg
+  image_alt: Le lien parental — accompagnement parental
 schema:
-  name: "Le lien parental"
-  description: "Accompagnement parental : soutien à la parentalité, ateliers parents-enfants, groupes de parole et séances sur mesure."
-  email: "le_lien@outlook.fr"
-  instagram: "https://www.instagram.com/le_lien_parental/"
-
+  name: Le lien parental
+  description: "Accompagnement parental : soutien à la parentalité, ateliers
+    parents-enfants, groupes de parole et séances sur mesure."
+  email: le_lien@outlook.fr
+  instagram: https://www.instagram.com/le_lien_parental/
 brand:
-  title: "Le lien parental"
-  tag: "accompagner avec douceur"
-
+  title: Le lien parental
+  tag: accompagner avec douceur
 hero:
-  kicker: "Accompagnement parental"
-  title: "Le lien parental"
-  lead: "Accompagner les familles avec écoute, douceur et bienveillance."
-  image: "assets/images/image1.jpg"
-  image_alt: "Parent et enfant dans un moment de complicité"
-
+  kicker: Accompagnement parental
+  title: Le lien parental
+  lead: Accompagner les familles avec écoute, douceur et bienveillance.
+  image: assets/images/allee.jpeg
+  image_alt: Parent et enfant dans un moment de complicité
 vision:
-  image: "assets/images/image2.jpg"
-  kicker: "Ma vision"
-  title: "Créer un espace d’écoute et de soutien pour des liens plus sereins."
-  lead: "Je crois qu’en accueillant les émotions et les questionnements sans jugement, chaque parent peut retrouver confiance et créer des relations plus apaisées avec ses enfants."
+  image: assets/images/image2.jpg
+  kicker: Ma vision
+  title: Créer un espace d’écoute et de soutien pour des liens plus sereins.
+  lead: Je crois qu’en accueillant les émotions et les questionnements sans
+    jugement, chaque parent peut retrouver confiance et créer des relations plus
+    apaisées avec ses enfants.
   button_href: "#accompagnements"
-  button_text: "En savoir plus"
-
+  button_text: En savoir plus
 services:
-  kicker: "Les accompagnements"
-  title: "Un soutien adapté à votre famille"
-  intro: "Séances individuelles, groupes de parole et ateliers pour cheminer à votre rythme."
+  kicker: Les accompagnements
+  title: Un soutien adapté à votre famille
+  intro: Séances individuelles, groupes de parole et ateliers pour cheminer à
+    votre rythme.
   cards:
-    - image: "assets/images/image3.jpg"
-      image_alt: "Soutien à la parentalité"
-      title: "Soutien à la parentalité"
-      text: "Un espace confidentiel pour parler de vos défis du quotidien et trouver des pistes concrètes."
+    - image: assets/images/image3.jpg
+      image_alt: Soutien à la parentalité
+      title: Soutien à la parentalité
+      text: Un espace confidentiel pour parler de vos défis du quotidien et trouver
+        des pistes concrètes.
       link_href: "#contact"
-      link_text: "En savoir plus →"
-    - image: "assets/images/image4.jpg"
-      image_alt: "Ateliers parents-enfants"
-      title: "Ateliers parents-enfants"
-      text: "Des moments ludiques pour renforcer le lien, la coopération et la communication."
+      link_text: En savoir plus →
+    - image: assets/images/image4.jpg
+      image_alt: Ateliers parents-enfants
+      title: Ateliers parents-enfants
+      text: Des moments ludiques pour renforcer le lien, la coopération et la
+        communication.
       link_href: "#evenements"
-      link_text: "En savoir plus →"
-    - image: "assets/images/image5.jpg"
-      image_alt: "Groupes de parole"
-      title: "Groupes de parole"
-      text: "Partager et s’entraider avec d’autres parents dans un cadre bienveillant et sécurisant."
+      link_text: En savoir plus →
+    - image: assets/images/image5.jpg
+      image_alt: Groupes de parole
+      title: Groupes de parole
+      text: Partager et s’entraider avec d’autres parents dans un cadre bienveillant
+        et sécurisant.
       link_href: "#evenements"
-      link_text: "En savoir plus →"
-    - image: "assets/images/image6.jpg"
-      image_alt: "Accompagnement personnalisé"
-      title: "Accompagnement personnalisé"
-      text: "Un parcours sur mesure selon vos besoins : sommeil, autorité positive, fratrie…"
+      link_text: En savoir plus →
+    - image: assets/images/image6.jpg
+      image_alt: Accompagnement personnalisé
+      title: Accompagnement personnalisé
+      text: "Un parcours sur mesure selon vos besoins : sommeil, autorité positive,
+        fratrie…"
       link_href: "#tarifs"
-      link_text: "En savoir plus →"
-
+      link_text: En savoir plus →
 tarifs:
-  kicker: "Les tarifs"
-  title: "Des formules claires"
-  lead: "Choisissez la formule qui vous correspond. Possibilité de forfaits sur demande."
-  note: "Paiement par virement ou espèces. Facture sur demande. Aides possibles selon votre situation — n’hésitez pas à en parler lors du premier échange."
+  kicker: Les tarifs
+  title: Des formules claires
+  lead: Choisissez la formule qui vous correspond. Possibilité de forfaits sur
+    demande.
+  note: Paiement par virement ou espèces. Facture sur demande. Aides possibles
+    selon votre situation — n’hésitez pas à en parler lors du premier échange.
   prices:
-    - label: "Séance individuelle"
-      amount: "60&nbsp;€"
-      detail: "1&nbsp;h d’accompagnement personnalisé"
-    - label: "Atelier duo"
-      amount: "35&nbsp;€"
-      detail: "Par famille, selon thématique"
-    - label: "Groupe"
-      amount: "À partir de 20&nbsp;€"
-      detail: "Selon la session et la durée"
-
+    - label: Séance individuelle
+      amount: 60&nbsp;€
+      detail: 1&nbsp;h d’accompagnement personnalisé
+    - label: Atelier duo
+      amount: 35&nbsp;€
+      detail: Par famille, selon thématique
+    - label: Groupe
+      amount: À partir de 20&nbsp;€
+      detail: Selon la session et la durée
 events:
-  kicker: "Événements & ateliers"
-  title: "Les prochains rendez-vous"
-  lead: "Ateliers en petit groupe, cafés parents ou journées thématiques : retrouvez le calendrier à jour."
+  kicker: Événements & ateliers
+  title: Les prochains rendez-vous
+  lead: "Ateliers en petit groupe, cafés parents ou journées thématiques :
+    retrouvez le calendrier à jour."
   button_href: "#contact"
-  button_text: "Voir tous les événements"
+  button_text: Voir tous les événements
   cards:
-    - image: "assets/images/image7.jpg"
-      meta: "Sam. 25 mai — 10&nbsp;h"
-      title: "Atelier « calme & émotions »"
-      text: "Jeux et outils pour aider les 3–6 ans à nommer ce qu’ils ressentent."
+    - image: assets/images/image7.jpg
+      meta: Sam. 25 mai — 10&nbsp;h
+      title: Atelier « calme & émotions »
+      text: Jeux et outils pour aider les 3–6 ans à nommer ce qu’ils ressentent.
       link_href: "#contact"
-      link_text: "En savoir plus →"
-    - image: "assets/images/image8.jpg"
-      meta: "Jeu. 5 juin — 18&nbsp;h&nbsp;30"
-      title: "Café parents"
-      text: "Échanges libres autour du sommeil et des routines du soir."
+      link_text: En savoir plus →
+    - image: assets/images/image8.jpg
+      meta: Jeu. 5 juin — 18&nbsp;h&nbsp;30
+      title: Café parents
+      text: Échanges libres autour du sommeil et des routines du soir.
       link_href: "#contact"
-      link_text: "En savoir plus →"
-    - image: "assets/images/image9.jpg"
-      meta: "Dim. 15 juin — 14&nbsp;h"
-      title: "Sortie nature en famille"
-      text: "Moment convivial pour reconnecter jeu et présence ensemble."
+      link_text: En savoir plus →
+    - image: assets/images/image9.jpg
+      meta: Dim. 15 juin — 14&nbsp;h
+      title: Sortie nature en famille
+      text: Moment convivial pour reconnecter jeu et présence ensemble.
       link_href: "#contact"
-      link_text: "En savoir plus →"
-
+      link_text: En savoir plus →
 contact:
-  kicker: "Contact"
-  title: "Écrire ou prendre rendez-vous"
-  email: "le_lien@outlook.fr"
-  instagram_url: "https://www.instagram.com/le_lien_parental/"
+  kicker: Contact
+  title: Écrire ou prendre rendez-vous
+  email: le_lien@outlook.fr
+  instagram_url: https://www.instagram.com/le_lien_parental/
   instagram_label: "@le_lien_parental"
-  location: "Basée en Corrèze et en visio"
-
+  location: Basée en Corrèze et en visio
 form:
-  subject: "Message depuis le site — Le lien parental"
-  from_name: "Site Le lien parental"
-
+  subject: Message depuis le site — Le lien parental
+  from_name: Site Le lien parental
 faq:
-  - question: "Comment se déroule une première séance ?"
-    answer: "Un temps d’accueil pour faire connaissance, préciser vos attentes et définir ensemble un premier axe de travail, dans le respect de votre rythme."
-  - question: "Les séances sont-elles remboursées ?"
-    answer: "L’accompagnement parental relève en général du secteur non médicalisé et n’est pas pris en charge par la Sécurité sociale. Renseignez-vous auprès de votre mutuelle."
-  - question: "Puis-je venir avec mon enfant ?"
-    answer: "Cela dépend de la formule : certaines séances sont réservées aux parents, d’autres incluent l’enfant. Nous le clarifions avant le rendez-vous."
-  - question: "Proposez-vous du visio ?"
-    answer: "Oui, les séances peuvent avoir lieu en visioconférence si vous préférez ou si vous êtes éloigné·e géographiquement."
-  - question: "Comment annuler ou reporter ?"
-    answer: "Merci de prévenir au moins 24 h à l’avance par mail ou message, afin de proposer le créneau à une autre famille."
+  - question: Comment se déroule une première séance ?
+    answer: Un temps d’accueil pour faire connaissance, préciser vos attentes et
+      définir ensemble un premier axe de travail, dans le respect de votre
+      rythme.
+  - question: Les séances sont-elles remboursées ?
+    answer: L’accompagnement parental relève en général du secteur non médicalisé et
+      n’est pas pris en charge par la Sécurité sociale. Renseignez-vous auprès
+      de votre mutuelle.
+  - question: Puis-je venir avec mon enfant ?
+    answer: "Cela dépend de la formule : certaines séances sont réservées aux
+      parents, d’autres incluent l’enfant. Nous le clarifions avant le
+      rendez-vous."
+  - question: Proposez-vous du visio ?
+    answer: Oui, les séances peuvent avoir lieu en visioconférence si vous préférez
+      ou si vous êtes éloigné·e géographiquement.
+  - question: Comment annuler ou reporter ?
+    answer: Merci de prévenir au moins 24 h à l’avance par mail ou message, afin de
+      proposer le créneau à une autre famille.
