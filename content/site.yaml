@@ -10,7 +10,7 @@ schema:
   name: Le lien parental
   description: "Accompagnement parental : soutien à la parentalité, ateliers
     parents-enfants, groupes de parole et séances sur mesure."
-  email: le_lien@outlook.fr
+  email: le.lien@outlook.fr
   instagram: https://www.instagram.com/le_lien_parental/
 brand:
   title: Le lien parental
@@ -110,7 +110,7 @@ events:
 contact:
   kicker: Contact
   title: Écrire ou prendre rendez-vous
-  email: le_lien@outlook.fr
+  email: le.lien@outlook.fr
   instagram_url: https://www.instagram.com/le_lien_parental/
   instagram_label: "@le_lien_parental"
   location: Basée en Corrèze et en visio

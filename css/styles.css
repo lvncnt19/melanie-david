@@ -169,24 +169,8 @@ a:hover {
   gap: 1rem;
 }
 
-.brand__title {
-  margin: 0;
-  font-family: var(--font-serif);
-  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  line-height: 1.2;
-}
-
-.brand__tag {
-  margin: 0.2rem 0 0;
-  font-size: 0.7rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: lowercase;
-  color: var(--accent-hover);
-  opacity: 0.9;
+.nav-desktop {
+  display: none;
 }
 
 .menu-toggle {
@@ -245,6 +229,26 @@ a:hover {
   padding: 0.5rem 0;
 }
 
+.brand__title {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.brand__tag {
+  margin: 0.2rem 0 0;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  color: var(--accent-hover);
+  opacity: 0.9;
+}
+
 @media (min-width: 900px) {
   .menu-toggle {
     display: none;
@@ -255,29 +259,54 @@ a:hover {
   }
 
   .header-inner {
-    grid-template-columns: auto 1fr auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 1rem 1.5rem;
+  }
+
+  .header-rdv {
+    justify-self: unset;
+    flex-shrink: 0;
+  }
+
+  .brand {
+    grid-column: unset;
+    justify-self: unset;
+    text-align: left;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .header-actions {
+    grid-column: unset;
+    justify-self: unset;
+    flex-shrink: 0;
+    margin-left: auto;
+    overflow-x: visible;
+    justify-content: flex-end;
   }
 
   .nav-desktop {
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
     gap: 1.5rem;
     font-size: 0.82rem;
     font-weight: 600;
+    justify-content: flex-end;
   }
 
   .nav-desktop a {
+    white-space: nowrap;
     text-decoration: none;
+    padding: 0.35rem 0.2rem;
   }
 
   .nav-desktop a:hover {
     text-decoration: none;
     color: var(--accent);
   }
-}
-
-.nav-desktop {
-  display: none;
 }
 
 /* ——— Labels ——— */
