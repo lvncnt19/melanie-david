@@ -73,7 +73,7 @@ tarifs:
     selon votre situation — n’hésitez pas à en parler lors du premier échange.
   prices:
     - label: Séance individuelle
-      amount: 60&nbsp;€
+      amount: 30&nbsp;€
       detail: 1&nbsp;h d’accompagnement personnalisé
     - label: Atelier duo
       amount: 35&nbsp;€
