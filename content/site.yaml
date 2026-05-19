@@ -89,12 +89,17 @@ services:
         peut être proposée. "
       link_href: "#contact"
       link_text: En savoir plus →
-    - image: assets/images/image6.jpg
-      image_alt: Accompagnement personnalisé
-      title: Accompagnement personnalisé
-      text: "Un parcours sur mesure selon vos besoins : sommeil, autorité positive,
-        fratrie…"
-      link_href: "#tarifs"
+    - image: assets/images/7d7f5403-7270-48f1-ac12-9b480c0300be.jpg
+      image_alt: "Les bains "
+      title: Les bains
+      text: >-
+        Le bain enveloppé est un moment de douceur et de contenance permettant
+        au bébé de retrouver des sensations proches de celles vécues in utéro.
+        Ce temps privilégié favorise l'apaisement, la détente et le lien
+        parent-enfant. 
+
+        Le bain enveloppé peut être proposé après la naissance, lors d'un besoin de réassurance ou d'apaisement, pour gérer certaines tensions ou émotions ou comme un moment de rencontre et de connexion avec votre bébé. 
+      link_href: "#contact"
       link_text: En savoir plus →
 tarifs:
   kicker: Les tarifs
