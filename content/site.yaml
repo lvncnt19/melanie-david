@@ -69,11 +69,12 @@ tarifs:
   title: Des formules claires
   lead: Choisissez la formule qui vous correspond. Possibilité de forfaits sur
     demande.
-  note: Paiement par virement ou espèces. Facture sur demande. Aides possibles
-    selon votre situation — n’hésitez pas à en parler lors du premier échange.
+  note: Paiement par virement, carte bancaire ou par chèque. Facture sur demande.
+    Aides possibles selon votre situation — n’hésitez pas à en parler lors du
+    premier échange.
   prices:
-    - label: Séance individuelle
-      amount: 30&nbsp;€
+    - label: "Séance d'accompagnement "
+      amount: 55&nbsp;€
       detail: 1&nbsp;h d’accompagnement personnalisé
     - label: Atelier duo
       amount: 35&nbsp;€
@@ -84,8 +85,7 @@ tarifs:
 events:
   kicker: Événements & ateliers
   title: Les prochains rendez-vous
-  lead: "Ateliers en petit groupe, cafés parents ou journées thématiques :
-    retrouvez le calendrier à jour."
+  lead: "Aucun évènement prévu à ce jour "
   button_href: "#contact"
   button_text: Voir tous les événements
   cards: []
