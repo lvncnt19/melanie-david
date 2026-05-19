@@ -77,12 +77,17 @@ services:
         Une prise en charge par la sécurité sociale peut s'envisager pour la mise à disposition de dispositifs médicaux, n'hésitez pas à me contacter pour en parler. 
       link_href: "#contact"
       link_text: En savoir plus →
-    - image: assets/images/image5.jpg
-      image_alt: Groupes de parole
-      title: Groupes de parole
-      text: Partager et s’entraider avec d’autres parents dans un cadre bienveillant
-        et sécurisant.
-      link_href: "#evenements"
+    - image: assets/images/dsc02209_vsco.jpg
+      image_alt: Accompagnement au sommeil
+      title: Accompagnement au sommeil
+      text: "Cet accompagnement vous propose un espace d'écoute et d'échange afin de
+        mieux comprendre le rythme, les besoins et le fonctionnement propre à
+        votre enfant. Ensemble, nous explorons différents éléments pouvant
+        influencer son sommeil afin de mettre en place des ajustements adaptés.
+        Les séances peuvent être ponctuelles ou s'inscrire dans un suivi plus
+        personnalisé selon vos besoins. Une intervention au domicile familial
+        peut être proposée. "
+      link_href: "#contact"
       link_text: En savoir plus →
     - image: assets/images/image6.jpg
       image_alt: Accompagnement personnalisé
