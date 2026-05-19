@@ -63,12 +63,19 @@ services:
         Cet accompagnement peut être ponctuel ou s'inscrire dans un suivi plus personnalisé selon les besoins de votre famille. 
       link_href: "#contact"
       link_text: En savoir plus →
-    - image: assets/images/image4.jpg
-      image_alt: Ateliers parents-enfants
-      title: Ateliers parents-enfants
-      text: Des moments ludiques pour renforcer le lien, la coopération et la
-        communication.
-      link_href: "#evenements"
+    - image: assets/images/img_8421.jpg
+      image_alt: Accompagnement à l'allaitement
+      title: "Accompagnement à l'allaitement "
+      text: >-
+        Que ce soit pendant la grossesse, au début de l'allaitement ou au fil de
+        votre parcours, les séances permettent d'aborder différents sujets :
+        mise en place de l'allaitement, douleurs ou inconfort, rythme des
+        tétées, prise de poids, fatigue et charge mentale, reprise du travail,
+        sevrage ou allaitement mixte, mise à disposition de matériel entrant
+        dans les Dispositifs Médicaux). 
+
+        Une prise en charge par la sécurité sociale peut s'envisager pour la mise à disposition de dispositifs médicaux, n'hésitez pas à me contacter pour en parler. 
+      link_href: "#contact"
       link_text: En savoir plus →
     - image: assets/images/image5.jpg
       image_alt: Groupes de parole
