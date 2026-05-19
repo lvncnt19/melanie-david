@@ -144,8 +144,8 @@ tarifs:
   title: Des formules claires
   lead: Choisissez la formule qui vous correspond. Possibilité de devis sur demande.
   note: Paiement par virement, carte bancaire ou par chèque. Facture sur demande.
-    Aides possibles selon votre situation — n’hésitez pas à en parler lors du
-    premier échange.
+    Des frais kilométriques peuvent être ajoutés au-delà de 15km de mon lieu
+    d'exercice (centre Brive-La-Gaillarde - 0,50€/km)
   prices:
     - label: Premier échange
       amount: Offert&nbsp;
@@ -177,6 +177,17 @@ tarifs:
     - label: Massage post natal
       amount: 80&nbsp;€ (1h)  / 100&nbsp;€ (1H30)
       detail: Après l'accouchement.
+    - label: Pack naissance
+      amount: 120&nbsp;€
+      detail: "À composer : bain enveloppé + atelier de portage ou atelier de massage
+        bébé"
+    - label: Pack femme enceinte
+      amount: 140&nbsp;€
+      detail: "2 massages prénataux "
+    - label: Pack sommeil
+      amount: 250&nbsp;€
+      detail: "2 à 3 séances d'accompagnement, un suivi et une intervention à domicile
+        d'une heure. "
 events:
   kicker: Événements & ateliers
   title: Les prochains rendez-vous
@@ -197,13 +208,18 @@ form:
   label_phone: Téléphone
 faq:
   - question: Comment se déroule une première séance ?
-    answer: Un temps d’accueil pour faire connaissance, préciser vos attentes et
-      définir ensemble un premier axe de travail, dans le respect de votre
-      rythme.
+    answer: "Je vous propose un rendez-vous téléphonique pour faire le point sur
+      votre demande et préparer la séance de rencontre. Lors de notre première
+      séance nous prenons le temps d'évaluer votre situation afin de vous
+      proposer un accompagnement adapté et personnalisé. Aucun engagement n'est
+      demandé à l'issue de cette première séance. "
   - question: Les séances sont-elles remboursées ?
-    answer: L’accompagnement parental relève en général du secteur non médicalisé et
-      n’est pas pris en charge par la Sécurité sociale. Renseignez-vous auprès
-      de votre mutuelle.
+    answer: Seule la mise en place de tire lait à domicile et la séance d'échange
+      autour de l'allaitement sont prises en charge par la sécurité sociale
+      (sous présentation d'une ordonnance, d'une carte vitale et d'une
+      mutuelle). L’accompagnement parental relève en général du secteur non
+      médicalisé et n’est pas pris en charge par la Sécurité sociale.
+      Renseignez-vous auprès de votre mutuelle.
   - question: Puis-je venir avec mon enfant ?
     answer: "Cela dépend de la formule : certaines séances sont réservées aux
       parents, d’autres incluent l’enfant. Nous le clarifions avant le
@@ -214,3 +230,7 @@ faq:
   - question: Comment annuler ou reporter ?
     answer: Merci de prévenir au moins 24 h à l’avance par mail ou message, afin de
       proposer le créneau à une autre famille.
+  - question: "Où se déroulent les séances ? "
+    answer: |-
+      Actuellement, un lieu d'accueil est en cours de création. 
+      Les prestations sont proposées à votre domicile ou par visio. 
