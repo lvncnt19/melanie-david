@@ -101,6 +101,18 @@ services:
         Le bain enveloppé peut être proposé après la naissance, lors d'un besoin de réassurance ou d'apaisement, pour gérer certaines tensions ou émotions ou comme un moment de rencontre et de connexion avec votre bébé. 
       link_href: "#contact"
       link_text: En savoir plus →
+    - image: assets/images/dsc03943-2.jpg
+      image_alt: Le portage
+      title: Le portage
+      text: Le portage permet de répondre aux besoins de proximité, de sécurité et de
+        contenance du bébé tout en favorisant le lien parent-enfant. Le but de
+        cette séance est de trouver la solution la plus adaptée à votre bébé, à
+        votre quotidien et à votre besoin à vous, parents. Différents types de
+        portages sont abordés avec différents types de tissus. Nous prenons le
+        temps d'échanger, de comprendre les règles de sécurité et de trouver,
+        ensemble, ce qui vous convient.
+      link_href: "#contact"
+      link_text: En savoir plus →
 tarifs:
   kicker: Les tarifs
   title: Des formules claires
