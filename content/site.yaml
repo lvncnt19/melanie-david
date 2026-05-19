@@ -113,6 +113,32 @@ services:
         ensemble, ce qui vous convient.
       link_href: "#contact"
       link_text: En savoir plus →
+    - image: assets/images/791ad2e0-c192-412f-ada8-ab570d6e32b8.jpg
+      image_alt: Le massage bébé
+      title: Le massage bébé
+      text: "L'atelier de massage bébé est un moment de douceur et de découverte des
+        différentes techniques d'apaisement par le toucher. Le massage peut
+        contribuer à favoriser la détente, soutenir le lien parent-bébé,
+        soulager certains inconforts quotidien et offrir un moment privilégié de
+        communication. Les séances se déroulent selon la disponibilité de votre
+        enfant, sans obligation de \"faire\" mais avant tout d'apprendre et de
+        pouvoir reproduire les gestes sereinement à la maison. "
+      link_href: "#contact"
+      link_text: En savoir plus →
+    - image: assets/images/dsc03893.jpg
+      image_alt: Les massages périnataux
+      title: Les massages périnataux
+      text: "Les massages bien-être périnataux accompagnent les femmes pendant la
+        grossesse et le post partum. Ils peuvent être réalisés à partir du 4ème
+        mois de grossesse ainsi qu'après la naissance. Chaque séance est pensée
+        comme un moment de pause, de relâchement dans une période de grands
+        changements physiques et émotionnels. Chaque session de massage est
+        discutée en amont pour définir avec vous quels sont vos besoins, le
+        rythme attendu et votre vécu concernant le toucher et les zones devenues
+        ou restées sensibles. Nous pourrons également échanger autour du
+        post-partum, de la grossesse et de la parentalité. "
+      link_text: En savoir plus →
+      link_href: "#contact"
 tarifs:
   kicker: Les tarifs
   title: Des formules claires
