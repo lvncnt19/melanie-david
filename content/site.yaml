@@ -147,15 +147,36 @@ tarifs:
     Aides possibles selon votre situation — n’hésitez pas à en parler lors du
     premier échange.
   prices:
-    - label: "Séance d'accompagnement "
+    - label: Premier échange
+      amount: Offert&nbsp;
+      detail: Pour faire connaissance et comprendre vos attentes.
+    - label: Accompagnement parental
       amount: 55&nbsp;€
-      detail: 1&nbsp;h d’accompagnement personnalisé
-    - label: Atelier duo
-      amount: 35&nbsp;€
-      detail: Par famille, selon thématique
-    - label: Groupe
-      amount: À partir de 20&nbsp;€
-      detail: Selon la session et la durée
+      detail: Organisation, grossesse, post-partum, deuil périnatal...
+    - label: Sommeil
+      amount: "À partir de 55&nbsp;€ "
+      detail: 1&nbsp;h d’accompagnement personnalisé pour comprendre votre bébé et
+        mettre en place des repères apaisants.
+    - label: "Suivi personnalisé sommeil "
+      amount: 150&nbsp;€
+      detail: 2 à 3 séances et un accompagnement via un carnet partagé. Intervention à
+        domicile sur devis.
+    - label: Allaitement
+      amount: Prise en charge sécurité sociale.
+      detail: "Installation de matériel à domicile et échange autour de l'allaitement.
+        "
+    - label: "Atelier bain enveloppé "
+      amount: 60&nbsp;€
+      detail: "Pour capturer ce moment unique, offrez-vous une séance photo : 20€"
+    - label: "Atelier massage bébé "
+      amount: 60&nbsp;€
+      detail: "Apprendre à masser votre bébé et partager un moment unique. "
+    - label: Massage femme enceinte
+      amount: 80&nbsp;€ (1h)  / 100&nbsp;€ (1H30)
+      detail: À compter du 4ème mois de grossesse.
+    - label: Massage post natal
+      amount: 80&nbsp;€ (1h)  / 100&nbsp;€ (1H30)
+      detail: Après l'accouchement.
 events:
   kicker: Événements & ateliers
   title: Les prochains rendez-vous
