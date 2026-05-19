@@ -49,11 +49,18 @@ services:
   title: Un soutien adapté à votre famille
   intro: Séances individuelles, ou en couple. Avec vos enfants ou sans.
   cards:
-    - image: assets/images/image3.jpg
-      image_alt: Soutien à la parentalité
+    - image: assets/images/dsc01847_vsco.jpg
+      image_alt: Séance d'accompagnement périnatal
       title: Soutien à la parentalité
-      text: Un espace confidentiel pour parler de vos défis du quotidien et trouver
-        des pistes concrètes.
+      text: >-
+        Chaque famille traverse des émotions et des questionnements difficiles.
+        Cet accompagnement permet de prendre le temps d'échanger autour de votre
+        vécu, de vos difficultés ou de vos besoins du moment, dans un cadre
+        bienveillant et sans jugement. 
+
+        Les séances peuvent aborder différentes thématiques (grossesse, post-partum, parentalité, émotions et charge mentale, adaptation à l'arrivée de bébé, besoin de soutien ou d'écoute...)
+
+        Cet accompagnement peut être ponctuel ou s'inscrire dans un suivi plus personnalisé selon les besoins de votre famille. 
       link_href: "#contact"
       link_text: En savoir plus →
     - image: assets/images/image4.jpg
