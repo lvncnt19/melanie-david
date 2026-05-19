@@ -4,7 +4,7 @@ meta:
   description: Accompagner les familles avec écoute, douceur et bienveillance.
     Soutien à la parentalité, ateliers et séances sur mesure.
 og:
-  image_path: assets/images/image7.jpg
+  image_path: assets/images/dsc03643.jpg
   image_alt: Le lien parental — accompagnement parental
 schema:
   name: Le lien parental
@@ -14,12 +14,12 @@ schema:
   instagram: https://www.instagram.com/le_lien_parental/
 brand:
   title: Le lien parental
-  tag: accompagner avec douceur
+  tag: Accompagner avec douceur
 hero:
   kicker: Accompagnement parental
   title: Le lien parental
   lead: Accompagner les familles avec écoute, douceur et bienveillance.
-  image: assets/images/image1.jpg
+  image: assets/images/dsc02253_vsco.jpg
   image_alt: "Parent et enfant dans un moment de complicité "
 vision:
   image: assets/images/image2.jpg
