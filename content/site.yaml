@@ -88,25 +88,7 @@ events:
     retrouvez le calendrier à jour."
   button_href: "#contact"
   button_text: Voir tous les événements
-  cards:
-    - image: assets/images/image7.jpg
-      meta: Sam. 25 mai — 10&nbsp;h
-      title: Atelier « calme & émotions »
-      text: Jeux et outils pour aider les 3–6 ans à nommer ce qu’ils ressentent.
-      link_href: "#contact"
-      link_text: En savoir plus →
-    - image: assets/images/image8.jpg
-      meta: Jeu. 5 juin — 18&nbsp;h&nbsp;30
-      title: Café parents
-      text: Échanges libres autour du sommeil et des routines du soir.
-      link_href: "#contact"
-      link_text: En savoir plus →
-    - image: assets/images/image9.jpg
-      meta: Dim. 15 juin — 14&nbsp;h
-      title: Sortie nature en famille
-      text: Moment convivial pour reconnecter jeu et présence ensemble.
-      link_href: "#contact"
-      link_text: En savoir plus →
+  cards: []
 contact:
   kicker: Contact
   title: Écrire ou prendre rendez-vous
