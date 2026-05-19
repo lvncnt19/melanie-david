@@ -1,15 +1,15 @@
 site_url: https://lelienparental.fr
 meta:
   page_title: Le Lien Parental — Accompagnement parental
-  description: Accompagner les familles avec écoute, douceur et bienveillance.
-    Soutien à la parentalité, ateliers et séances sur mesure.
+  description: J'accompagne les futurs et nouveaux parents ainsi que les enfants
+    avec douceur, écoute et bienveillance de la grossesse au post-partum.
 og:
   image_path: assets/images/dsc03643.jpg
   image_alt: Le lien parental — accompagnement parental
 schema:
   name: Le lien parental
   description: "Accompagnement parental : soutien à la parentalité, ateliers
-    parents-enfants, groupes de parole et séances sur mesure."
+    parents-enfants, allaitement, sommeil et séances sur mesure."
   email: le.lien@outlook.fr
   instagram: https://www.instagram.com/le_lien_parental/
 brand:
@@ -18,23 +18,36 @@ brand:
 hero:
   kicker: Accompagnement parental
   title: Le lien parental
-  lead: Accompagner les familles avec écoute, douceur et bienveillance.
+  lead: "Soutenir, écouter et accompagner chaque famille dans son propre rythme. "
   image: assets/images/dsc02253_vsco.jpg
   image_alt: "Parent et enfant dans un moment de complicité "
 vision:
-  image: assets/images/image2.jpg
+  image: assets/images/dsc03643.jpg
   kicker: Ma vision
   title: Créer un espace d’écoute et de soutien pour des liens plus sereins.
-  lead: Je crois qu’en accueillant les émotions et les questionnements sans
-    jugement, chaque parent peut retrouver confiance et créer des relations plus
-    apaisées avec ses enfants.
+  lead: >-
+    Je crois profondément qu'aucun parent ne devrait traverser la grossesse, le
+    post-partum ou les difficultés du quotidien seul. 
+
+
+    À travers le lien parental, j'ai à coeur de proposer un accompagnement doux, bienveillant et personnalisé, dans lequel chaque famille peut se sentir écoutée, soutenue et respectée. 
+
+
+    Infirmière diplômée d'État ayant exercé auprès des nouveaux-nés et des parents, notamment en néonatalogie, j'ai souhaité créer un espace humain et rassurant autour de la parentalité. 
+
+
+    Pour cela, j'ai suivi plusieurs formations en parallèle de mon métier pour devenir accompagnante périnatale. C'est avec cette expérience, enrichie et approfondie au fil des années, que j'ai souhaité développer un accompagnement périnatal proposant un panel varié de séances et d'accompagnements adaptés à vos besoins, à vos demandes. 
+
+
+    Ici, chaque parent a sa place. 
+
+    Cet espace se veut accueillant pour toute la famille. Les mères, les pères et chaque co-parent peuvent être écoutés et accompagnés dans leurs émotions, leurs questionnements et leur propre vécu.
   button_href: "#accompagnements"
   button_text: En savoir plus
 services:
   kicker: Les accompagnements
   title: Un soutien adapté à votre famille
-  intro: Séances individuelles, groupes de parole et ateliers pour cheminer à
-    votre rythme.
+  intro: Séances individuelles, ou en couple. Avec vos enfants ou sans.
   cards:
     - image: assets/images/image3.jpg
       image_alt: Soutien à la parentalité
@@ -67,8 +80,7 @@ services:
 tarifs:
   kicker: Les tarifs
   title: Des formules claires
-  lead: Choisissez la formule qui vous correspond. Possibilité de forfaits sur
-    demande.
+  lead: Choisissez la formule qui vous correspond. Possibilité de devis sur demande.
   note: Paiement par virement, carte bancaire ou par chèque. Facture sur demande.
     Aides possibles selon votre situation — n’hésitez pas à en parler lors du
     premier échange.
