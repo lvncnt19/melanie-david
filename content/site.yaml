@@ -177,17 +177,6 @@ tarifs:
     - label: Massage post natal
       amount: 80&nbsp;€ (1h)  / 100&nbsp;€ (1H30)
       detail: Après l'accouchement.
-    - label: Pack naissance
-      amount: 120&nbsp;€
-      detail: "À composer : bain enveloppé + atelier de portage ou atelier de massage
-        bébé"
-    - label: Pack femme enceinte
-      amount: 140&nbsp;€
-      detail: "2 massages prénataux "
-    - label: Pack sommeil
-      amount: 250&nbsp;€
-      detail: "2 à 3 séances d'accompagnement, un suivi et une intervention à domicile
-        d'une heure. "
 events:
   kicker: Événements & ateliers
   title: Les prochains rendez-vous
