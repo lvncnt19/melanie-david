@@ -183,6 +183,9 @@ tarifs:
     - label: "Atelier massage bébé "
       amount: 60&nbsp;€
       detail: "Apprendre à masser votre bébé et partager un moment unique. "
+    - label: Atelier de portage
+      amount: 50&nbsp;€
+      detail: À faire seul ou en couple
     - label: Massage femme enceinte
       amount: 80&nbsp;€
       detail: "1h de massage ou 1H30 : 100€"
