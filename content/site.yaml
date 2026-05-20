@@ -171,12 +171,6 @@ tarifs:
     - label: "Atelier massage bébé "
       amount: 60&nbsp;€
       detail: "Apprendre à masser votre bébé et partager un moment unique. "
-    - label: Massage femme enceinte
-      amount: 80&nbsp;€ (1h)  / 100&nbsp;€ (1H30)
-      detail: À compter du 4ème mois de grossesse.
-    - label: Massage post natal
-      amount: 80&nbsp;€ (1h)  / 100&nbsp;€ (1H30)
-      detail: Après l'accouchement.
 events:
   kicker: Événements & ateliers
   title: Les prochains rendez-vous
