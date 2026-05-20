@@ -16,3 +16,23 @@
     });
   });
 })();
+
+document.addEventListener("click", function (e) {
+  var btn = e.target.closest(".text-expand-toggle");
+  if (!btn || btn.tagName !== "BUTTON") return;
+
+  var id = btn.getAttribute("aria-controls");
+  var panel = id && document.getElementById(id);
+  if (!panel) return;
+
+  panel.hidden = !panel.hidden;
+  var expanded = !panel.hidden;
+  btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+
+  var moreLabel = btn.querySelector(".toggle-label--more");
+  var lessLabel = btn.querySelector(".toggle-label--less");
+  if (moreLabel && lessLabel) {
+    moreLabel.hidden = expanded;
+    lessLabel.hidden = !expanded;
+  }
+});

@@ -70,9 +70,20 @@ collections:
               - { label: "Photo", name: "image", widget: "image" }
               - { label: "Sur-titre", name: "kicker", widget: "string" }
               - { label: "Titre", name: "title", widget: "string" }
-              - { label: "Texte", name: "lead", widget: "text" }
-              - { label: "Lien du bouton", name: "button_href", widget: "string" }
-              - { label: "Texte du bouton", name: "button_text", widget: "string" }
+              - {
+                  label: "Texte visible (aperçu)",
+                  name: "lead",
+                  widget: "text",
+                  hint: "Affiché tout le temps, avant « En savoir plus ».",
+                }
+              - {
+                  label: "Texte dépliable",
+                  name: "more",
+                  widget: "text",
+                  hint: "Affiché après un clic sur le bouton. Laisser vide pour masquer le bouton.",
+                }
+              - { label: "Texte du bouton (déplier)", name: "button_text", widget: "string" }
+              - { label: "Texte du bouton (replier)", name: "button_text_less", widget: "string", required: false }
 
           - label: "Services"
             name: "services"
@@ -88,9 +99,27 @@ collections:
                   - { label: "Image", name: "image", widget: "image" }
                   - { label: "Texte alternatif", name: "image_alt", widget: "string" }
                   - { label: "Titre", name: "title", widget: "string" }
-                  - { label: "Texte", name: "text", widget: "text" }
-                  - { label: "Lien", name: "link_href", widget: "string" }
-                  - { label: "Texte du lien", name: "link_text", widget: "string" }
+                  - {
+                      label: "Texte visible (aperçu)",
+                      name: "text",
+                      widget: "text",
+                      hint: "Court texte sur la carte (1–2 phrases). Le détail va dans « Texte dépliable ».",
+                    }
+                  - {
+                      label: "Texte dépliable",
+                      name: "more",
+                      widget: "text",
+                      hint: "Affiché au clic. Laisser vide pour afficher un lien classique à la place.",
+                    }
+                  - {
+                      label: "Lien (si pas de texte dépliable)",
+                      name: "link_href",
+                      widget: "string",
+                      required: false,
+                      hint: "Ex. #contact — utilisé seulement si « Texte dépliable » est vide.",
+                    }
+                  - { label: "Texte du bouton (déplier)", name: "link_text", widget: "string" }
+                  - { label: "Texte du bouton (replier)", name: "link_text_less", widget: "string", required: false }
 
           - label: "Tarifs"
             name: "tarifs"
@@ -124,9 +153,26 @@ collections:
                   - { label: "Image", name: "image", widget: "image" }
                   - { label: "Date / heure", name: "meta", widget: "string", hint: "HTML ok (ex. &nbsp; pour espaces insécables)." }
                   - { label: "Titre", name: "title", widget: "string" }
-                  - { label: "Texte", name: "text", widget: "text" }
-                  - { label: "Lien", name: "link_href", widget: "string" }
-                  - { label: "Texte du lien", name: "link_text", widget: "string" }
+                  - {
+                      label: "Texte visible (aperçu)",
+                      name: "text",
+                      widget: "text",
+                      hint: "Court texte sur la carte (1–2 phrases). Le détail va dans « Texte dépliable ».",
+                    }
+                  - {
+                      label: "Texte dépliable",
+                      name: "more",
+                      widget: "text",
+                      hint: "Affiché au clic. Laisser vide pour afficher un lien classique.",
+                    }
+                  - {
+                      label: "Lien (si pas de texte dépliable)",
+                      name: "link_href",
+                      widget: "string",
+                      required: false,
+                    }
+                  - { label: "Texte du bouton (déplier)", name: "link_text", widget: "string" }
+                  - { label: "Texte du bouton (replier)", name: "link_text_less", widget: "string", required: false }
 
           - label: "Contact"
             name: "contact"

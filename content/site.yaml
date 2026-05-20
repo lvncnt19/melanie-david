@@ -31,8 +31,7 @@ vision:
 
 
     À travers le lien parental, j'ai à coeur de proposer un accompagnement doux, bienveillant et personnalisé, dans lequel chaque famille peut se sentir écoutée, soutenue et respectée. 
-
-
+  more: >-
     Infirmière diplômée d'État ayant exercé auprès des nouveaux-nés et des parents, notamment en néonatalogie, j'ai souhaité créer un espace humain et rassurant autour de la parentalité. 
 
 
@@ -42,8 +41,8 @@ vision:
     Ici, chaque parent a sa place. 
 
     Cet espace se veut accueillant pour toute la famille. Les mères, les pères et chaque co-parent peuvent être écoutés et accompagnés dans leurs émotions, leurs questionnements et leur propre vécu.
-  button_href: "#accompagnements"
   button_text: En savoir plus
+  button_text_less: Réduire
 services:
   kicker: Les accompagnements
   title: Un soutien adapté à votre famille
@@ -53,6 +52,8 @@ services:
       image_alt: Séance d'accompagnement périnatal
       title: Soutien à la parentalité
       text: >-
+        Un espace confidentiel pour parler de votre vécu et de vos besoins du moment, sans jugement.
+      more: >-
         Chaque famille traverse des émotions et des questionnements difficiles.
         Cet accompagnement permet de prendre le temps d'échanger autour de votre
         vécu, de vos difficultés ou de vos besoins du moment, dans un cadre
@@ -61,12 +62,13 @@ services:
         Les séances peuvent aborder différentes thématiques (grossesse, post-partum, parentalité, émotions et charge mentale, adaptation à l'arrivée de bébé, besoin de soutien ou d'écoute...)
 
         Cet accompagnement peut être ponctuel ou s'inscrire dans un suivi plus personnalisé selon les besoins de votre famille. 
-      link_href: "#contact"
       link_text: En savoir plus →
     - image: assets/images/img_8421.jpg
       image_alt: Accompagnement à l'allaitement
       title: "Accompagnement à l'allaitement "
       text: >-
+        Accompagnement pendant la grossesse, au démarrage ou tout au long de l'allaitement.
+      more: >-
         Que ce soit pendant la grossesse, au début de l'allaitement ou au fil de
         votre parcours, les séances permettent d'aborder différents sujets :
         mise en place de l'allaitement, douleurs ou inconfort, rythme des
@@ -75,82 +77,100 @@ services:
         dans les Dispositifs Médicaux). 
 
         Une prise en charge par la sécurité sociale peut s'envisager pour la mise à disposition de dispositifs médicaux, n'hésitez pas à me contacter pour en parler. 
-      link_href: "#contact"
       link_text: En savoir plus →
     - image: assets/images/dsc02209_vsco.jpg
       image_alt: Accompagnement au sommeil
       title: Accompagnement au sommeil
-      text: "Cet accompagnement vous propose un espace d'écoute et d'échange afin de
+      text: >-
+        Comprendre le sommeil de votre enfant et avancer ensemble vers des nuits plus sereines.
+      more: >-
+        Cet accompagnement vous propose un espace d'écoute et d'échange afin de
         mieux comprendre le rythme, les besoins et le fonctionnement propre à
         votre enfant. Ensemble, nous explorons différents éléments pouvant
         influencer son sommeil afin de mettre en place des ajustements adaptés.
+
         Les séances peuvent être ponctuelles ou s'inscrire dans un suivi plus
         personnalisé selon vos besoins. Une intervention au domicile familial
-        peut être proposée. "
-      link_href: "#contact"
+        peut être proposée. 
       link_text: En savoir plus →
     - image: assets/images/7d7f5403-7270-48f1-ac12-9b480c0300be.jpg
       image_alt: "Les bains "
       title: Les bains
       text: >-
+        Un moment de douceur et de lien autour du bain enveloppé.
+      more: >-
         Le bain enveloppé est un moment de douceur et de contenance permettant
         au bébé de retrouver des sensations proches de celles vécues in utéro.
         Ce temps privilégié favorise l'apaisement, la détente et le lien
         parent-enfant. 
 
         Le bain enveloppé peut être proposé après la naissance, lors d'un besoin de réassurance ou d'apaisement, pour gérer certaines tensions ou émotions ou comme un moment de rencontre et de connexion avec votre bébé. 
-      link_href: "#contact"
       link_text: En savoir plus →
     - image: assets/images/dsc03943-2.jpg
       image_alt: Le portage
       title: Le portage
-      text: Le portage permet de répondre aux besoins de proximité, de sécurité et de
-        contenance du bébé tout en favorisant le lien parent-enfant. Le but de
+      text: >-
+        Trouver le portage qui convient à votre bébé, à votre quotidien et à vous, parents.
+      more: >-
+        Le portage permet de répondre aux besoins de proximité, de sécurité et de
+        contenance du bébé tout en favorisant le lien parent-enfant.
+
+        Le but de
         cette séance est de trouver la solution la plus adaptée à votre bébé, à
         votre quotidien et à votre besoin à vous, parents. Différents types de
         portages sont abordés avec différents types de tissus. Nous prenons le
         temps d'échanger, de comprendre les règles de sécurité et de trouver,
         ensemble, ce qui vous convient.
-      link_href: "#contact"
       link_text: En savoir plus →
     - image: assets/images/791ad2e0-c192-412f-ada8-ab570d6e32b8.jpg
       image_alt: Le massage bébé
       title: Le massage bébé
-      text: "L'atelier de massage bébé est un moment de douceur et de découverte des
-        différentes techniques d'apaisement par le toucher. Le massage peut
+      text: >-
+        Apprendre des gestes d'apaisement par le toucher, dans le respect du rythme de votre bébé.
+      more: >-
+        L'atelier de massage bébé est un moment de douceur et de découverte des
+        différentes techniques d'apaisement par le toucher.
+
+        Le massage peut
         contribuer à favoriser la détente, soutenir le lien parent-bébé,
         soulager certains inconforts quotidien et offrir un moment privilégié de
         communication. Les séances se déroulent selon la disponibilité de votre
-        enfant, sans obligation de \"faire\" mais avant tout d'apprendre et de
-        pouvoir reproduire les gestes sereinement à la maison. "
-      link_href: "#contact"
+        enfant, sans obligation de "faire" mais avant tout d'apprendre et de
+        pouvoir reproduire les gestes sereinement à la maison. 
       link_text: En savoir plus →
     - image: assets/images/dsc03893.jpg
       image_alt: Les massages périnataux
       title: Les massages périnataux
-      text: "Les massages bien-être périnataux accompagnent les femmes pendant la
+      text: >-
+        Un temps de pause pour le corps et les émotions, de la grossesse au post-partum.
+      more: >-
+        Les massages bien-être périnataux accompagnent les femmes pendant la
         grossesse et le post partum. Ils peuvent être réalisés à partir du 4ème
         mois de grossesse ainsi qu'après la naissance. Chaque séance est pensée
         comme un moment de pause, de relâchement dans une période de grands
-        changements physiques et émotionnels. Chaque session de massage est
+        changements physiques et émotionnels.
+
+        Chaque session de massage est
         discutée en amont pour définir avec vous quels sont vos besoins, le
         rythme attendu et votre vécu concernant le toucher et les zones devenues
         ou restées sensibles. Nous pourrons également échanger autour du
-        post-partum, de la grossesse et de la parentalité. "
+        post-partum, de la grossesse et de la parentalité. 
       link_text: En savoir plus →
-      link_href: "#contact"
-    - image_alt: "Les packs "
+    - image: assets/images/dsc04022.jpg
+      image_alt: "Les packs "
       title: Les packs
-      text: "Les différents types de packs proposés peuvent être à composer. Pour
+      text: >-
+        Des formules à composer selon vos besoins : naissance, grossesse, sommeil.
+      more: >-
+        Les différents types de packs proposés peuvent être à composer. Pour
         cela, n'hésitez pas à me contacter pour faire votre sélection.
+
         Actuellement, les packs sont les suivants : pack naissance à composer
         (bain enveloppé + atelier de massage bébé ou atelier de portage) / pack
         femme enceinte (2 massages prénataux d'1h) / Pack sommeil (2 séances
         d'accompagnement avec suivi sommeil et une intervention à domicile d'une
-        heure). "
-      link_href: "#contact"
+        heure).
       link_text: En savoir plus →
-      image: assets/images/dsc04022.jpg
 tarifs:
   kicker: Les tarifs
   title: Des formules claires

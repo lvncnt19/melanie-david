@@ -106,7 +106,20 @@
             <p class="kicker">{{vision.kicker}}</p>
             <h2 id="vision-title">{{vision.title}}</h2>
             <p class="lead">{{vision.lead}}</p>
-            <a class="btn-pill" href="{{vision.button_href}}">{{vision.button_text}}</a>
+            {{#if vision.more}}
+            <div class="vision-more" id="vision-more" hidden>
+              <div class="vision-more__inner">{{vision.more}}</div>
+            </div>
+            <button
+              type="button"
+              class="btn-pill vision-toggle text-expand-toggle"
+              aria-expanded="false"
+              aria-controls="vision-more"
+            >
+              <span class="toggle-label--more">{{vision.button_text}}</span>
+              <span class="toggle-label--less" hidden>{{#if vision.button_text_less}}{{vision.button_text_less}}{{else}}Réduire{{/if}}</span>
+            </button>
+            {{/if}}
           </div>
         </div>
       </section>
@@ -124,8 +137,25 @@
               <img class="card__img" src="{{image}}" width="600" height="450" alt="{{image_alt}}" />
               <div class="card__body">
                 <h3>{{title}}</h3>
-                <p>{{text}}</p>
+                <p class="card__excerpt">{{text}}</p>
+                {{#if more}}
+                <div class="card-more" id="card-more-services-{{@index}}" hidden>
+                  <div class="card-more__inner">{{more}}</div>
+                </div>
+                <button
+                  type="button"
+                  class="link-arrow text-expand-toggle"
+                  aria-expanded="false"
+                  aria-controls="card-more-services-{{@index}}"
+                >
+                  <span class="toggle-label--more">{{link_text}}</span>
+                  <span class="toggle-label--less" hidden>{{#if link_text_less}}{{link_text_less}}{{else}}Réduire{{/if}}</span>
+                </button>
+                {{else}}
+                {{#if link_href}}
                 <a class="link-arrow" href="{{link_href}}">{{link_text}}</a>
+                {{/if}}
+                {{/if}}
               </div>
             </article>
             {{/each}}
@@ -173,8 +203,25 @@
               <div class="event-card__body">
                 <p class="event-card__meta">{{{meta}}}</p>
                 <h3>{{title}}</h3>
-                <p>{{text}}</p>
+                <p class="card__excerpt">{{text}}</p>
+                {{#if more}}
+                <div class="card-more" id="card-more-events-{{@index}}" hidden>
+                  <div class="card-more__inner">{{more}}</div>
+                </div>
+                <button
+                  type="button"
+                  class="link-arrow text-expand-toggle"
+                  aria-expanded="false"
+                  aria-controls="card-more-events-{{@index}}"
+                >
+                  <span class="toggle-label--more">{{link_text}}</span>
+                  <span class="toggle-label--less" hidden>{{#if link_text_less}}{{link_text_less}}{{else}}Réduire{{/if}}</span>
+                </button>
+                {{else}}
+                {{#if link_href}}
                 <a class="link-arrow" href="{{link_href}}">{{link_text}}</a>
+                {{/if}}
+                {{/if}}
               </div>
             </article>
             {{/each}}
