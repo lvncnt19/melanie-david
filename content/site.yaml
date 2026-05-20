@@ -139,6 +139,18 @@ services:
         post-partum, de la grossesse et de la parentalité. "
       link_text: En savoir plus →
       link_href: "#contact"
+    - image_alt: "Les packs "
+      title: Les packs
+      text: "Les différents types de packs proposés peuvent être à composer. Pour
+        cela, n'hésitez pas à me contacter pour faire votre sélection.
+        Actuellement, les packs sont les suivants : pack naissance à composer
+        (bain enveloppé + atelier de massage bébé ou atelier de portage) / pack
+        femme enceinte (2 massages prénataux d'1h) / Pack sommeil (2 séances
+        d'accompagnement avec suivi sommeil et une intervention à domicile d'une
+        heure). "
+      link_href: "#contact"
+      link_text: En savoir plus →
+      image: assets/images/dsc04022.jpg
 tarifs:
   kicker: Les tarifs
   title: Des formules claires
