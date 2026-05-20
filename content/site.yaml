@@ -177,6 +177,9 @@ tarifs:
     - label: "Massage post natal "
       amount: 80&nbsp;€
       detail: "1h de massage ou 1H30 : 100€"
+    - label: "Les différents pack "
+      amount: À partir de 120&nbsp;€
+      detail: Pack naissance à composer / Pack femme enceinte / Pack sommeil
 events:
   kicker: Événements & ateliers
   title: Les prochains rendez-vous
