@@ -32,7 +32,9 @@ vision:
 
     À travers le lien parental, j'ai à coeur de proposer un accompagnement doux, bienveillant et personnalisé, dans lequel chaque famille peut se sentir écoutée, soutenue et respectée. 
   more: >-
-    Infirmière diplômée d'État ayant exercé auprès des nouveaux-nés et des parents, notamment en néonatalogie, j'ai souhaité créer un espace humain et rassurant autour de la parentalité. 
+    Infirmière diplômée d'État ayant exercé auprès des nouveaux-nés et des
+    parents, notamment en néonatalogie, j'ai souhaité créer un espace humain et
+    rassurant autour de la parentalité. 
 
 
     Pour cela, j'ai suivi plusieurs formations en parallèle de mon métier pour devenir accompagnante périnatale. C'est avec cette expérience, enrichie et approfondie au fil des années, que j'ai souhaité développer un accompagnement périnatal proposant un panel varié de séances et d'accompagnements adaptés à vos besoins, à vos demandes. 
@@ -51,8 +53,8 @@ services:
     - image: assets/images/dsc01847_vsco.jpg
       image_alt: Séance d'accompagnement périnatal
       title: Soutien à la parentalité
-      text: >-
-        Un espace confidentiel pour parler de votre vécu et de vos besoins du moment, sans jugement.
+      text: Un espace confidentiel pour parler de votre vécu et de vos besoins du
+        moment, sans jugement.
       more: >-
         Chaque famille traverse des émotions et des questionnements difficiles.
         Cet accompagnement permet de prendre le temps d'échanger autour de votre
@@ -66,8 +68,8 @@ services:
     - image: assets/images/img_8421.jpg
       image_alt: Accompagnement à l'allaitement
       title: "Accompagnement à l'allaitement "
-      text: >-
-        Accompagnement pendant la grossesse, au démarrage ou tout au long de l'allaitement.
+      text: Accompagnement pendant la grossesse, au démarrage ou tout au long de
+        l'allaitement.
       more: >-
         Que ce soit pendant la grossesse, au début de l'allaitement ou au fil de
         votre parcours, les séances permettent d'aborder différents sujets :
@@ -81,23 +83,20 @@ services:
     - image: assets/images/dsc02209_vsco.jpg
       image_alt: Accompagnement au sommeil
       title: Accompagnement au sommeil
-      text: >-
-        Comprendre le sommeil de votre enfant et avancer ensemble vers des nuits plus sereines.
+      text: Comprendre le sommeil de votre enfant et avancer ensemble vers des nuits
+        plus sereines.
       more: >-
         Cet accompagnement vous propose un espace d'écoute et d'échange afin de
         mieux comprendre le rythme, les besoins et le fonctionnement propre à
         votre enfant. Ensemble, nous explorons différents éléments pouvant
         influencer son sommeil afin de mettre en place des ajustements adaptés.
 
-        Les séances peuvent être ponctuelles ou s'inscrire dans un suivi plus
-        personnalisé selon vos besoins. Une intervention au domicile familial
-        peut être proposée. 
+        Les séances peuvent être ponctuelles ou s'inscrire dans un suivi plus personnalisé selon vos besoins. Une intervention au domicile familial peut être proposée. 
       link_text: En savoir plus →
     - image: assets/images/7d7f5403-7270-48f1-ac12-9b480c0300be.jpg
       image_alt: "Les bains "
       title: Les bains
-      text: >-
-        Un moment de douceur et de lien autour du bain enveloppé.
+      text: Un moment de douceur et de lien autour du bain enveloppé.
       more: >-
         Le bain enveloppé est un moment de douceur et de contenance permettant
         au bébé de retrouver des sensations proches de celles vécues in utéro.
@@ -109,40 +108,30 @@ services:
     - image: assets/images/dsc03943-2.jpg
       image_alt: Le portage
       title: Le portage
-      text: >-
-        Trouver le portage qui convient à votre bébé, à votre quotidien et à vous, parents.
+      text: Trouver le portage qui convient à votre bébé, à votre quotidien et à vous,
+        parents.
       more: >-
-        Le portage permet de répondre aux besoins de proximité, de sécurité et de
-        contenance du bébé tout en favorisant le lien parent-enfant.
+        Le portage permet de répondre aux besoins de proximité, de sécurité et
+        de contenance du bébé tout en favorisant le lien parent-enfant.
 
-        Le but de
-        cette séance est de trouver la solution la plus adaptée à votre bébé, à
-        votre quotidien et à votre besoin à vous, parents. Différents types de
-        portages sont abordés avec différents types de tissus. Nous prenons le
-        temps d'échanger, de comprendre les règles de sécurité et de trouver,
-        ensemble, ce qui vous convient.
+        Le but de cette séance est de trouver la solution la plus adaptée à votre bébé, à votre quotidien et à votre besoin à vous, parents. Différents types de portages sont abordés avec différents types de tissus. Nous prenons le temps d'échanger, de comprendre les règles de sécurité et de trouver, ensemble, ce qui vous convient.
       link_text: En savoir plus →
     - image: assets/images/791ad2e0-c192-412f-ada8-ab570d6e32b8.jpg
       image_alt: Le massage bébé
       title: Le massage bébé
-      text: >-
-        Apprendre des gestes d'apaisement par le toucher, dans le respect du rythme de votre bébé.
+      text: Apprendre des gestes d'apaisement par le toucher, dans le respect du
+        rythme de votre bébé.
       more: >-
         L'atelier de massage bébé est un moment de douceur et de découverte des
         différentes techniques d'apaisement par le toucher.
 
-        Le massage peut
-        contribuer à favoriser la détente, soutenir le lien parent-bébé,
-        soulager certains inconforts quotidien et offrir un moment privilégié de
-        communication. Les séances se déroulent selon la disponibilité de votre
-        enfant, sans obligation de "faire" mais avant tout d'apprendre et de
-        pouvoir reproduire les gestes sereinement à la maison. 
+        Le massage peut contribuer à favoriser la détente, soutenir le lien parent-bébé, soulager certains inconforts quotidien et offrir un moment privilégié de communication. Les séances se déroulent selon la disponibilité de votre enfant, sans obligation de "faire" mais avant tout d'apprendre et de pouvoir reproduire les gestes sereinement à la maison. 
       link_text: En savoir plus →
     - image: assets/images/dsc03893.jpg
       image_alt: Les massages périnataux
       title: Les massages périnataux
-      text: >-
-        Un temps de pause pour le corps et les émotions, de la grossesse au post-partum.
+      text: Un temps de pause pour le corps et les émotions, de la grossesse au
+        post-partum.
       more: >-
         Les massages bien-être périnataux accompagnent les femmes pendant la
         grossesse et le post partum. Ils peuvent être réalisés à partir du 4ème
@@ -150,26 +139,18 @@ services:
         comme un moment de pause, de relâchement dans une période de grands
         changements physiques et émotionnels.
 
-        Chaque session de massage est
-        discutée en amont pour définir avec vous quels sont vos besoins, le
-        rythme attendu et votre vécu concernant le toucher et les zones devenues
-        ou restées sensibles. Nous pourrons également échanger autour du
-        post-partum, de la grossesse et de la parentalité. 
+        Chaque session de massage est discutée en amont pour définir avec vous quels sont vos besoins, le rythme attendu et votre vécu concernant le toucher et les zones devenues ou restées sensibles. Nous pourrons également échanger autour du post-partum, de la grossesse et de la parentalité. 
       link_text: En savoir plus →
     - image: assets/images/dsc04022.jpg
       image_alt: "Les packs "
       title: Les packs
-      text: >-
-        Des formules à composer selon vos besoins : naissance, grossesse, sommeil.
+      text: "Des formules à composer selon vos besoins : naissance, grossesse,
+        sommeil."
       more: >-
         Les différents types de packs proposés peuvent être à composer. Pour
         cela, n'hésitez pas à me contacter pour faire votre sélection.
 
-        Actuellement, les packs sont les suivants : pack naissance à composer
-        (bain enveloppé + atelier de massage bébé ou atelier de portage) / pack
-        femme enceinte (2 massages prénataux d'1h) / Pack sommeil (2 séances
-        d'accompagnement avec suivi sommeil et une intervention à domicile d'une
-        heure).
+        Actuellement, les packs sont les suivants : pack naissance à composer (bain enveloppé + atelier de massage bébé ou atelier de portage) / pack femme enceinte (2 massages prénataux d'1h) / Pack sommeil (2 séances d'accompagnement avec suivi sommeil et une intervention à domicile d'une heure).
       link_text: En savoir plus →
 tarifs:
   kicker: Les tarifs
@@ -218,10 +199,39 @@ tarifs:
 events:
   kicker: Événements & ateliers
   title: Les prochains rendez-vous
-  lead: "Aucun évènement prévu à ce jour "
+  lead: "Dimanche 27 septembre 2026 - Inscrivez-vous, c'est gratuit pour l'édition
+    #JAIFAIMJEMANGE2026 en remplissant le formulaire correspondant à
+    Brive-la-gaillarde. Sur inscription uniquement. "
   button_href: "#contact"
   button_text: Voir tous les événements
-  cards: []
+  cards:
+    - image: assets/images/jaifaim.png
+      meta: "10H30 devant la mairie de Brive-la-gailarde "
+      title: "#JAIFAIMJEMANGE2026"
+      link_href: https://www.jaifaimjemange.fr/inscription-2025
+      link_text: Découvrir l'événement
+      text: "Et si on mettait en lumière toutes les façons de nourrir nos enfants ? En
+        septembre 2026, l'édition #JAIFAIMJEMANGE revient partout en France pour
+        célébrer l'allaitement, le biberon et tous ces moments où l'on nourrit
+        son enfant."
+      more: >-
+        J’ai faim, je mange, c’est un événement photographique national qui met
+        en lumière un geste aussi simple qu’essentiel : nourrir son enfant.
+
+
+        Allaitement, biberon, diversification… derrière chaque famille se trouve une histoire différente, et toutes méritent d’être représentées.
+
+
+        À travers des rassemblements organisés dans plusieurs villes de France, parents, enfants et photographes se retrouvent pour créer des images naturelles, fortes et bienveillantes autour de l’alimentation des tout-petits.
+
+
+        À Brive-la-Gaillarde, rendez-vous le dimanche 27 septembre 2026 ! Je vous accueillerai pour un moment convivial suivi d’une séance photo collective et de prises de vues plus naturelles au parc de la Guierle.
+
+
+        La participation est gratuite, sur inscription. Les bébés et enfants de tous âges sont les bienvenus, ainsi que les conjoint(e)s, frères et sœurs. 
+
+
+        Retrouvez l’événement de Brive sur la carte et inscrivez-vous pour participer !
 contact:
   kicker: Contact
   title: Écrire ou prendre rendez-vous
